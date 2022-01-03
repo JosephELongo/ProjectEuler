@@ -8,6 +8,7 @@ fibSecond = 2
 fibList = [fibFirst, fibSecond]
 count = 0
 
+#Because of how the list is generated, n-1 will always be stored as the last element and n-2 will always be stored as the second to last element
 fibNext = fibList[len(fibList)-1] + fibList[len(fibList)-2]
 
 while fibNext < fibMax:
