@@ -1,4 +1,3 @@
-from Problem3 import primeChecker
 import Problem3
 
 #To generate a list of prime numbers, we can reuse the function from Problem Three
